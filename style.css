@@ -1,0 +1,820 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+* { 
+    
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+
+    background: linear-gradient(-20deg, #dcb0ed70 0%, #99c99c 100%);
+    /* background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%) !important; */
+    /* background: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%); */
+
+    height: 100vh;
+    margin: 0;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    
+
+}
+
+/* NAVEGAÇÃO DO HEADER */
+/* NAVEGAÇÃO DO HEADER */
+
+.anchor {
+    display: block;
+    height: 100px; /* Altura do header */
+    margin-top: -80px; /* Altura negativa para compensar o header */
+    visibility: hidden; /* Não exibe o elemento */
+
+    padding-top: 120px;
+
+}
+.anchor2 {
+    display: block;
+    height: 100px; /* Altura do header */
+    margin-top: -80px; /* Altura negativa para compensar o header */
+    visibility: hidden; /* Não exibe o elemento */
+
+    padding-top: 120px;
+
+
+}
+
+.anchor3 {
+    display: block;
+    height: 100px; /* Altura do header */
+    margin-top: -80px; /* Altura negativa para compensar o header */
+    visibility: hidden; /* Não exibe o elemento */
+
+    padding-top: 150px;
+
+}
+
+/* NAVEGAÇÃO DO HEADER */
+/* NAVEGAÇÃO DO HEADER */
+
+/* EFEITO MÁQUINA DE ESCREVER */
+/* EFEITO MÁQUINA DE ESCREVER */
+
+.content p {
+    text-align: center;
+    font-family: monospace;
+    border-right: 4px solid;
+    width: 28ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(28), blinking 0.5s infinite step-end alternate;
+}
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+}
+  
+  @keyframes blinking {
+    50% {
+      border-color: transparent;
+    }
+}
+
+/* EFEITO MÁQUINA DE ESCREVER */
+/* EFEITO MÁQUINA DE ESCREVER */
+
+/* APRESENTAÇÃO */
+/* APRESENTAÇÃO */
+
+.presentation {
+    position: relative;
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Estilo do vídeo de fundo */
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    filter: brightness(80%); /* Reduz o brilho para destacar o texto */
+}
+
+/* Estilo do conteúdo */
+.content {
+    
+    /* background: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 50%) ; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+
+   
+    backdrop-filter: blur(8px); /* Aplica o desfoque ao fundo */
+
+}
+
+.presentation h1 {
+    font-family: monospace;
+    font-size: 4em;
+    margin: 0;
+}
+
+.presentation p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+
+
+.background video{
+    margin-top: 80px;
+    display: flex;
+    overflow: hidden;
+
+    
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    
+}
+
+@media (max-width: 768px) {
+    .sobre-mim {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre-mim-img {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 195px;
+        height: 120px;
+    }
+
+    .sobre-mim-txt h2 {
+        padding-top: 100px;
+        font-size: 1.8em;
+    }
+
+    .sobre-mim-txt p {
+        font-size: 1em;
+    }
+}
+
+/* APRESENTAÇÃO */
+/* APRESENTAÇÃO */
+
+/* NAV BAR */
+/* NAV BAR */
+
+
+.container-fluid b{
+    font-size: 25px;
+    font-family: monospace !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #08c06a; /* Altera a cor do texto no hover */
+    background-color: #2B3035; /* Altera a cor de fundo no hover */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Suaviza a transição */
+}
+
+/* NAV BAR */
+/* NAV BAR */
+
+/* SOBRE MIM */
+/* SOBRE MIM */
+
+
+
+.sobre-mim {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 60px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.sobre-mim-img img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.sobre-mim-txt {
+    max-width: 600px;
+}
+
+.sobre-mim-txt h2 {
+    text-align: center;
+    margin-top: 0;
+    color: #333;
+    font-size: 2em;
+}
+
+.sobre-mim-txt p {
+    line-height: 1.6;
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* SOBRE MIM */
+/* SOBRE MIM */
+
+/* HABILIDADES */
+/* HABILIDADES */
+
+.skills-habi{
+
+
+    text-align: center;
+    font-family: monospace;
+    border-right: 4px solid;
+    width: 26ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(22), blinking 0.5s infinite step-end alternate;
+    
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff00;
+
+
+    top: 65%; /* Posiciona o texto no meio verticalmente */
+    left: 50%; /* Posiciona o texto no meio horizontalmente */
+
+
+}
+
+
+.skills-habi h1{
+
+    font-family: monospace;
+    font-size: 32px;
+    font-weight: bold;
+    
+    
+}
+
+.skills-proj{
+
+
+    text-align: center;
+    font-family: monospace;
+    border-right: 4px solid;
+    width: 20ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(14), blinking 0.5s infinite step-end alternate;
+    
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff00;
+
+
+    top: 65%; /* Posiciona o texto no meio verticalmente */
+    left: 50%; /* Posiciona o texto no meio horizontalmente */
+
+}
+
+
+.skills-proj h1{
+
+    font-family: monospace;
+    font-size: 32px;
+    font-weight: bold;
+    
+    
+}
+
+
+
+
+
+.skills-header{
+    
+    text-align: center;
+    
+    border-right: 4px solid;
+
+    width:500px;
+    background-color: #ffffff;
+    border-radius: 100px;
+}
+
+.skills-header h1{
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.skills-img{
+    box-shadow: 4px 5px 2px rgba(0, 0, 0, 0.2); /* Sombra preta com desfoque */
+
+
+}
+
+.pjt{
+    padding: 50px;
+
+}
+
+.card-footer a {
+    text-decoration: none;
+    
+}
+
+#logo-java {
+    height: 80%;
+    width: 90%;
+}
+
+#logo-css3 {
+    height: 90%;
+    width: 90%;
+}
+
+#logo-git{
+    height: 35.5%;
+    width: 80%;
+}
+
+.skills-header h1{
+    color: #000;
+}
+
+.skills-section{
+    padding-top: 20px;
+    }
+    
+    .skills-header{
+        
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+    }
+    
+    .skills-header:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: #2ecc71;
+    border-radius: 2px;
+    }
+    
+    .skills-container{
+    display: grid;
+    grid-tempLate-columns: repeat(5, 1fr);
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    grid-gap:1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+    }
+    .skills-box{
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+        height: 420px;
+    
+        background-color: #fff;
+        border-radius: 10px;
+    padding: 1rem;
+    color: #000;
+    cursor:pointer;
+    }
+
+    /*
+    .skills-box:hover > .skills-title: after, 
+    .skills-box:hover > .skills-title: before{
+    width: 30px;
+    }
+    */
+
+
+    .skills-box:hover .skills-img{
+    transform: translateX(-20px);
+    }
+    
+    .skills-title{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    }
+    
+    .skills-title:after{
+    content: '';
+    position:absolute;
+    bottom: 0;
+    right: 50%;
+    width:20px;
+    height:4px;
+    border-radius: 2px 0 0 2px;
+    background-color: #2ecc71;
+    transition: .5s;
+    }
+    
+    .skills-title:before{
+    content: '';
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    width:100px;
+    height:4px;
+    border-radius: 0 2px 2px 0;
+    background-color: #2ecc71;
+    }
+    
+    .skills-icons{
+    width:50px;
+    z-index:2;
+    }
+    
+    .skills-img{
+    width:90px;
+    height:90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: #fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition: .5s;
+    }
+    
+    .skills-img:after{
+    content: '';
+    position:absolute;
+    top:0;
+    left: 0;
+    width:50%;
+    height:90px;
+    
+    background: rgb(255, 255, 255);
+    /* background: rgb(100, 100, 100); */
+
+    border-radius: 45px 0 0 45px;
+    }
+    .skills-title h3{
+    color: #333;
+    margin-top: 0.5rem;
+    }
+    @media screen and (max-width:990px){
+     .skills-container{
+     grid-tempLate-columns: repeat(2, 1fr);
+     padding: 2rem 50px;
+     }
+    }
+    
+    @media screen and (max-width:650px){
+     .skills-container{
+     grid-tempLate-columns:2fr;
+     padding: 2rem 50px;
+     }
+    }
+
+/* HABILIDADES */
+/* HABILIDADES */
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* FOOTER */
+/* FOOTER */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Efeito de passar o mouse no ícone de mídia social */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+
+.Rodape {
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    
+}
+
+/* FOOTER */
+/* FOOTER */
+
+
+/* PIXEL ART */
+/* PIXEL ART */
+
+
+/* Estilo do container */
+.pixel-art {
+ 
+    transform: translate(-50%);
+    left: 50%;
+
+
+    position: relative; /* Permite o posicionamento absoluto dos elementos filhos */
+    
+    max-width: 350px; /* Largura máxima da imagem */
+}
+
+/* Imagem de fundo */
+.pixel-art img {
+    width: 100%;
+    height: auto; /* Ajusta a altura da imagem de acordo com a largura */
+    padding-bottom: -900px;
+
+    box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.3); /* Sombra deslocada para baixo e para direita */
+    
+}
+
+
+
+/* Estilo do texto */
+.pixel-art .divisao {
+        position: absolute;
+        top: 50%; /* Posiciona o texto no meio verticalmente */
+        left: 50%; /* Posiciona o texto no meio horizontalmente */
+        transform: translate(-50%, -50%); /* Centraliza exatamente o texto */
+        color: rgb(0, 0, 0); /* Cor do texto */
+        font-size: 28px; /* Tamanho do texto */
+        font-weight: bold;
+        text-align: center;
+}
+
+
+.icon-proj{
+    font-size: 28px;
+}
+
+
+
+/* PIXEL ART */
+/* PIXEL ART */
+
+/* FORMULÁRIO */
+/* FORMULÁRIO */
+
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: radial-gradient(circle at 10% 20%, rgb(98, 114, 128) 0%, rgb(52, 63, 51) 90.1%);
+    width: 800px;
+    
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    border-radius: 8px;
+
+
+    /*
+    background-size: contain; /* Ajusta a imagem à proporção da div 
+    background-position: center; /* Centraliza a imagem no fundo 
+    background-repeat: no-repeat; /* Não repete a imagem 
+    */
+
+
+
+}
+section h2{
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem;
+
+    font-family: monospace;
+
+}
+section .forma{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.forma label{
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+.forma input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+.forma input:focus{
+    border-radius: 16px;
+}
+.forma textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+.forma textarea:focus{
+    border-radius: 16px;
+}
+.forma button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+.forma button:hover{
+    background: #f5f5f5;
+    color: #101026;
+    border-radius: 16px;
+}
+
+/*
+
+Página do Obrigado
+
+.main{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   background: #101026;
+   flex-direction: column;
+}
+.text{
+    font-size: 45px;
+    color: #f5f5f5;
+    margin-bottom: 30px;
+}
+.paragrafo{
+    color: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+
+
+.btn{
+    padding: 15px 55px;
+    background: #f5f5f5;
+    text-decoration: none;
+    color: #101026;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.btn:hover{
+    border-radius: 16px;
+}
+
+*/
+
+.formulario{
+
+    display: flex;
+
+    align-items: center;
+    
+    justify-content: center;
+
+    padding-bottom: 50px;
+
+
+
+}
+
+
+
+
+
+
